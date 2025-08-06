@@ -1,8 +1,6 @@
 
 function checkAnswer()
 {
-	    alert("This shows as a pop-up!"); // Users see this pop-up
-	console.log("clicked");
 	const correctAnswer = "4";
 	let userAnswer = document.querySelector('input[name="quiz"]:checked').value;
 	if (correctAnswer == userAnswer)
